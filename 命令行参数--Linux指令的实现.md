@@ -25,10 +25,10 @@ int main(int argc,char* argv[])
 		argc--;
 	else
 	{
-    printf("you should input something.\n");//如果没有带参数,输出提示信息
-	  return 1;
-  }
-  while(argc--)
+    		printf("you should input something.\n");//如果没有带参数,输出提示信息
+		  return 1;
+  	}
+  	while(argc--)
 	{
 		printf("%s",*++argv);//依次打印除程序名本身的各个命令行参数
 		if(argc)
