@@ -180,21 +180,32 @@ git push
 
 13.创建分支
 ---
-输入git branch可以查看分支,输入git checkout -b branchA可以创建一个名为branchA的分支
+输入`git branch`可以查看分支,输入
+```
+git checkout -b branchA
+```
+可以创建一个名为branchA的分支
 
 14.切换分支
 ---
-git chechout branchA 可以切换到branchA分支上
+```git chechout branchA
+```
+可以切换到branchA分支上
 
 13.合并分支
 ---
-首先切换到master分支,然后输入git merge branchA即可将branchA分支合并到master分支.
+首先切换到master分支,然后输入
+```
+git merge branchA
+```
+即可将branchA分支合并到master分支.
 
 15.删除分支
 ---
 分支合并完成之后,可以把banchA分支删除掉
+```
 git branch -d branchA
-
+```
 
 
 
