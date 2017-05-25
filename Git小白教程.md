@@ -151,6 +151,29 @@ git push
 即可将本地仓库的内容推送到远程仓库.
 
 
+10.分支管理
+---
+几乎每一种版本控制系统都以某种形式支持分支。使用分支意味着你可以从开发主线上分离开来，然后在不影响主线的同时继续工作。
+每次commit之后,Git都把它们串成一条时间线,这条时间线就是一个分支.现在我们的仓库只有一条时间线,在Git里，这个分支叫主分支,即master分支.HEAD严格来说不是指向提交.而是指向master.master才是指向提交的，所以,HEAD指向的就是当前分支.
+
+![](http://www.liaoxuefeng.com/files/attachments/0013849087937492135fbf4bbd24dfcbc18349a8a59d36d000/0)
+
+11.创建分支
+---
+输入git branch可以查看分支,输入git checkout -b branchA可以创建一个名为branchA的分支
+12.切换分支
+---
+git chechout branchA 可以切换到branchA分支上
+13.合并分支
+---
+首先切换到master分支,然后输入git merge branchA即可将branchA分支合并到master分支.
+14.删除分支
+---
+分支合并完成之后,可以把banchA分支删除掉
+git branch -d branchA
+
+
+
 
 **如果不习惯使用命令行,也有一种简单的办法,直接在网页上点击界面右上方的‘+’号,上传文件,效果是一样的.**
 
