@@ -1,6 +1,6 @@
 CC = gcc
 C++ = g++
-BIN_PATH=./bin
+BIN_PATH=../bin
 CFLAG = -g -Wall
 DEPS = tools.cpp
 
