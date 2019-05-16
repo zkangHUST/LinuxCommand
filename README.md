@@ -1,6 +1,7 @@
-# 自己实现的基础Linux Command 
-cp
-cat
-echo 
-mv
+# 自己实现的Linux基础command 
+
+- cat
+- cp
+- echo
+- mv
 
