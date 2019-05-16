@@ -4,4 +4,5 @@
 - cp
 - echo
 - mv
+- rm
 
